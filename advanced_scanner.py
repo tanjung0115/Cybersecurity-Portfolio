@@ -1,7 +1,7 @@
 import socket
 import sys
 from datetime import datetime
-import concurrent.futures  # INI MODUL SIHIRNYA (Untuk Multithreading)
+import concurrent.futures  # INI MODUL Untuk Multithreading
 
 # --- WARNA (ANSI CODES) ---
 HIJAU = '\033[92m'
@@ -80,5 +80,5 @@ except KeyboardInterrupt:
     sys.exit()
 
 print("-" * 50)
-print(f"🏁 Selesai   : {datetime.now()}")
+print(f" Selesai   : {datetime.now()}")
 print(f"{BIRU}Scanning Selesai.{RESET}")

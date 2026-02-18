@@ -25,5 +25,5 @@ Alat ini dibuat untuk memahami cara kerja pemindaian jaringan (*Reconnaissance*)
 
 1. **Clone repository ini:**
    ```bash
-   git clone [https://github.com/tanjung0115/Cybersecurity-Portfolio.git](https://github.com/tanjung0115/Cybersecurity-Portfolio.git)
-   cd Cybersecurity-Portfolio
+   git clone [https://github.com/tanjung0115/network-tools-python.git](https://github.com/tanjung0115/Cybersecurity-Portfolio.git)
+   cd network-tools-python

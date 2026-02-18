@@ -3,7 +3,17 @@ import sys
 from datetime import datetime
 
 # Target IP (Bisa diganti nanti)
-target = "127.0.0.1" 
+# --- UPDATE HARI 2: ARGUMEN DINAMIS ---
+if len(sys.argv) == 2:
+    # Mengambil argumen kedua (indeks 1) sebagai target
+    # Contoh: python3 scanner.py <TARGET>
+    target = socket.gethostbyname(sys.argv[1]) 
+else:
+    # Kalau user lupa memasukkan IP
+    print("❌ Cara pakai salah!")
+    print("Syntax: python3 advanced_scanner.py <IP TARGET>")
+    sys.exit()
+# --------------------------------------
 
 # Fungsi untuk mengambil Banner (Versi Aplikasi)
 def grab_banner(ip, port):

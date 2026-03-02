@@ -1,7 +1,7 @@
 #  Super Port Scanner (Python CLI Tool)
 
 ###  Author:Mija Tanjung
-**Bootcamp Cybersecurity - Week 1: The Toolmaker**
+**Bootcamp Cybersecurity: The Toolmaker**
 
 ---
 
@@ -29,7 +29,7 @@ Alat ini dibuat untuk memahami cara kerja pemindaian jaringan (*Reconnaissance*)
    cd network-tools-python
 
 
-##  Fitur Baru: Fuzzer Direktori & Ekstensi
+##  Fuzzer Direktori & Ekstensi
 
 Selain Port Scanner, repositori ini sekarang dilengkapi dengan **Python Fuzzer** kustom untuk mencari file tersembunyi (seperti `.bak`, `.env`, atau direktori admin) di server target.
 
@@ -41,3 +41,31 @@ Selain Port Scanner, repositori ini sekarang dilengkapi dengan **Python Fuzzer**
 **Cara Penggunaan:**
 ```bash
 python3 fuzzer.py
+
+
+##  HTTP POST Brute-Forcer (v4.0)
+
+Tool untuk melakukan simulasi serangan *brute-force* pada form login web menggunakan metode HTTP POST.
+
+**Fitur Utama:**
+- Membaca target form login secara dinamis.
+- Menginjeksi *payload* dari *custom wordlist*.
+- Dilengkapi dengan *Error Handling* dan deteksi indikator kegagalan yang akurat.
+
+**Cara Penggunaan:**
+```bash
+python3 bruteforce.py
+
+
+##  Banner Grabber (v5.0)
+
+Tool *Information Gathering* berbasis *socket* tingkat rendah untuk mengekstrak identitas *software* dan sistem operasi dari *server* target sebelum masuk ke fase eksploitasi.
+
+**Fitur Utama:**
+- Mampu mengetuk *port* spesifik seperti SSH (22), HTTP (80), dan lainnya.
+- Membaca *header* balasan server untuk mengetahui versi perangkat lunak (misal: OpenSSH, Apache, Ubuntu).
+- Dilengkapi *timeout protection* agar skrip tidak *hang* saat target tidak merespons.
+
+**Cara Penggunaan:**
+```bash
+python3 banner-grabber.py

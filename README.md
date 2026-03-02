@@ -28,7 +28,6 @@ Alat ini dibuat untuk memahami cara kerja pemindaian jaringan (*Reconnaissance*)
    git clone [https://github.com/tanjung0115/network-tools-python.git](https://github.com/tanjung0115/Cybersecurity-Portfolio.git)
    cd network-tools-python
 
-
 ##  Fuzzer Direktori & Ekstensi
 
 Selain Port Scanner, repositori ini sekarang dilengkapi dengan **Python Fuzzer** kustom untuk mencari file tersembunyi (seperti `.bak`, `.env`, atau direktori admin) di server target.
@@ -42,7 +41,6 @@ Selain Port Scanner, repositori ini sekarang dilengkapi dengan **Python Fuzzer**
 ```bash
 python3 fuzzer.py
 
-
 ##  HTTP POST Brute-Forcer (v4.0)
 
 Tool untuk melakukan simulasi serangan *brute-force* pada form login web menggunakan metode HTTP POST.
@@ -55,7 +53,6 @@ Tool untuk melakukan simulasi serangan *brute-force* pada form login web menggun
 **Cara Penggunaan:**
 ```bash
 python3 bruteforce.py
-
 
 ##  Banner Grabber (v5.0)
 
